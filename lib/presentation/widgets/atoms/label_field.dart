@@ -21,7 +21,12 @@ class LabelField extends StatelessWidget {
             ),
           ),
           Flexible(
-            child: Text(value),
+            child: Text(
+              value,
+              style: const TextStyle(
+                color: Colors.grey,
+              ),
+            ),
           ),
         ],
       ),

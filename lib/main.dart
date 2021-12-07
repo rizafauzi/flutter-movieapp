@@ -1,5 +1,5 @@
 // @dart=2.9
-
+import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie_app/presentation/router/app_route.dart';
@@ -14,6 +14,10 @@ class SimpleBlocDelegate extends BlocDelegate {
 }
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+    systemNavigationBarColor: Colors.black, // navigation bar color
+    statusBarColor: Colors.transparent, // status bar color
+  ));
   BlocSupervisor.delegate = SimpleBlocDelegate();
   runApp(MyApp());
 }
@@ -32,6 +36,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         backgroundColor: Colors.black,
         primarySwatch: Colors.blue,
@@ -43,7 +48,7 @@ class _MyAppState extends State<MyApp> {
               ),
             ),
       ),
-      initialRoute: '/',
+      initialRoute: '/profile',
       onGenerateRoute: _appRouter.onGenerateRoute,
     );
   }

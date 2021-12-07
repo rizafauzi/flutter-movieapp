@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie_app/logic/blocs/movie/movie_bloc.dart';
 import 'package:movie_app/presentation/screens/home_screen.dart';
 import 'package:movie_app/presentation/screens/movie_screen.dart';
+import 'package:movie_app/presentation/screens/profile_screen.dart';
 
 class AppRouter {
   Route onGenerateRoute(RouteSettings settings) {
@@ -17,6 +18,8 @@ class AppRouter {
             child: MovieScreen(imdbId),
           ),
         );
+      case ProfileScreen.routeName:
+        return MaterialPageRoute(builder: (_) => ProfileScreen());
       default:
         return MaterialPageRoute(builder: (_) => Container());
     }

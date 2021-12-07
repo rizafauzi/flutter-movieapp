@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   final List<Map<String, String>> movies = [
     {'title': 'Top DCEU Movies', 'keyword': 'Superman'},
-    {'title': 'Top Netflix Movies', 'keyword': 'arcane'},
+    {'title': 'Top Netflix Movies', 'keyword': 'avengers'},
     {'title': 'Top MCU Movies', 'keyword': 'ironman'},
     {'title': 'Your Favorite', 'keyword': 'wonder woman'},
     {'title': 'Top Action Movies', 'keyword': 'jumanji'},

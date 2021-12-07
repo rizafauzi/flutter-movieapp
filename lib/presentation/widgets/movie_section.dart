@@ -15,8 +15,7 @@ class MovieSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-        child: Column(
+    return Column(
       children: [
         Padding(
           padding: const EdgeInsets.all(15),
@@ -25,11 +24,11 @@ class MovieSection extends StatelessWidget {
             children: [
               Text(
                 title,
-                style: TextStyle(
+                style: const TextStyle(
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Text('See All'),
+              const Text('See All'),
             ],
           ),
         ),
@@ -45,7 +44,7 @@ class MovieSection extends StatelessWidget {
                 if (state is MovieLoaded) {
                   return ListView.builder(
                     itemCount: state.movieList.length,
-                    padding: EdgeInsets.only(left: 15),
+                    padding: const EdgeInsets.only(left: 15),
                     scrollDirection: Axis.horizontal,
                     itemBuilder: (context, index) {
                       return MovieCard(
@@ -61,6 +60,6 @@ class MovieSection extends StatelessWidget {
               },
             )),
       ],
-    ));
+    );
   }
 }
