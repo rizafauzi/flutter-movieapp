@@ -1,0 +1,40 @@
+{
+  "Title": "Superman",
+  "Year": "1978",
+  "Rated": "PG",
+  "Released": "15 Dec 1978",
+  "Runtime": "143 min",
+  "Genre": "Action, Adventure, Drama",
+  "Director": "Richard Donner",
+  "Writer": "Jerry Siegel, Joe Shuster, Mario Puzo",
+  "Actors": "Christopher Reeve, Margot Kidder, Gene Hackman",
+  "Plot": "An alien orphan is sent from his dying planet to Earth, where he grows up to become his adoptive home's first and greatest superhero.",
+  "Language": "English",
+  "Country": "United States, United Kingdom, Canada, Switzerland, France",
+  "Awards": "Won 1 Oscar. 17 wins & 23 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMzA0YWMwMTUtMTVhNC00NjRkLWE2ZTgtOWEzNjJhYzNiMTlkXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+  "Ratings": [
+    {
+      "Source": "Internet Movie Database",
+      "Value": "7.3/10"
+    },
+    {
+      "Source": "Rotten Tomatoes",
+      "Value": "94%"
+    },
+    {
+      "Source": "Metacritic",
+      "Value": "81/100"
+    }
+  ],
+  "Metascore": "81",
+  "imdbRating": "7.3",
+  "imdbVotes": "167,963",
+  "imdbID": "tt0078346",
+  "Type": "movie",
+  "DVD": "01 May 2001",
+  "BoxOffice": "$134,451,603",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True"
+}
